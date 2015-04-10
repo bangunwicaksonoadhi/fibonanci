@@ -28,9 +28,11 @@ public class Tes {
         for (i=0; i<=inputan; i++) {
             x=y;
             y=z;
-            System.out.print(z+ " ");
+
             z=x+y;
               }
+              z=z-1
+                          System.out.print(z+ " ");
         
     }
     
